@@ -18,6 +18,12 @@ helm install traefik netdata-traefik/traefik
 # Update helm package repo
 
 ```
-helm package traefik-helm-chart-master-root/traefik
+git worktree add src master
+
+helm package src/traefik
 helm repo index .
+
+git worktree remove src
 ```
+
+replace `master` with appropriate commit-ish of the source repo.
