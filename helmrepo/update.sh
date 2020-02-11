@@ -11,7 +11,7 @@ PKG_VER="0.0.1-$(git rev-parse "${GIT_REV}")"
   helm repo index .
 )
 
-git add "pulsar-${PKG_VER}.tgz" index.yaml
+git add "traefik-${PKG_VER}.tgz" index.yaml
 git commit -m "Added package version ${PKG_VER}"
 
 set +x
