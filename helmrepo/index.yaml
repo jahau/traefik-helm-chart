@@ -3,7 +3,7 @@ entries:
   traefik:
   - apiVersion: v1
     appVersion: 2.1.1
-    created: "2020-02-11T22:57:06.507032644+11:00"
+    created: "2020-02-11T22:57:45.973547147+11:00"
     description: A Traefik based Kubernetes ingress controller
     digest: 3f0fe0785a3facc55b6f93552ca7f045e04e8956c6c5e291653ccc6129ae0b5f
     home: https://traefik.io/
@@ -25,31 +25,8 @@ entries:
     - traefik-3.3.1.tgz
     version: 3.3.1
   - apiVersion: v1
-    appVersion: 2.1.1
-    created: "2020-02-11T22:57:06.50616413+11:00"
-    description: A Traefik based Kubernetes ingress controller
-    digest: 73fecbbfbbef7100de6f33512662e9ae4bec77fe3fe65ae1290384c1ce56f384
-    home: https://traefik.io/
-    icon: http://traefik.io/traefik.logo.png
-    keywords:
-    - traefik
-    - ingress
-    maintainers:
-    - email: emile@vauge.com
-      name: emilevauge
-    - email: daniel.tomcej@gmail.com
-      name: dtomcej
-    - email: ludovic@containo.us
-      name: ldez
-    name: traefik
-    sources:
-    - https://github.com/containous/traefik
-    urls:
-    - traefik-0.0.1-f49d7de25883b438fd133fe7109d962dbc97b5a3.tgz
-    version: 0.0.1-f49d7de25883b438fd133fe7109d962dbc97b5a3
-  - apiVersion: v1
     appVersion: 0.0.1-f424cc360f5c527eec6912db1113ea717aad9dc8
-    created: "2020-02-11T22:57:06.505210826+11:00"
+    created: "2020-02-11T22:57:45.972772175+11:00"
     description: A Traefik based Kubernetes ingress controller
     digest: 510074d7bd4d99c4aae71e542477958082a7edab567462621974f72d3d840492
     home: https://traefik.io/
@@ -72,7 +49,7 @@ entries:
     version: 0.0.1-f424cc360f5c527eec6912db1113ea717aad9dc8
   - apiVersion: v1
     appVersion: 2.1.1
-    created: "2020-02-11T22:57:06.50441895+11:00"
+    created: "2020-02-11T22:57:45.971986234+11:00"
     description: A Traefik based Kubernetes ingress controller
     digest: c6706ed0968e9170c60a667694193dd8a8905a3764e8ed4b518960ab1fdc6357
     home: https://traefik.io/
@@ -93,4 +70,4 @@ entries:
     urls:
     - traefik-0.0.1-76cc1a80eefe0a00d17c2c5c71340cead1bad22e.tgz
     version: 0.0.1-76cc1a80eefe0a00d17c2c5c71340cead1bad22e
-generated: "2020-02-11T22:57:06.503400839+11:00"
+generated: "2020-02-11T22:57:45.97094209+11:00"
